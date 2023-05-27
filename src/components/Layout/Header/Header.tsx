@@ -8,7 +8,13 @@ export default function Header() {
       <div className="font-semibold ">FREE SHIPPING ON ALL ORDERS</div>
       <div className="flex items-center justify-center gap-1.5">
         <p className="font-medium">TR</p>
-        <Image src={row} alt="language-row" width={14} height={5} />
+        <Image
+          className="w-full h-auto"
+          src={row}
+          alt="language-row"
+          width={14}
+          height={5}
+        />
       </div>
     </div>
   );
