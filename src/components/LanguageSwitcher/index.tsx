@@ -1,28 +1,31 @@
-import { useRouter } from "next/router";
 import { useState } from "react";
+import { NextRouter, useRouter } from "next/router";
+import i18next from "i18next";
+
 import classNames from "classnames";
-import { i18n as i18next } from "next-i18next";
 import styles from "./languageSwitcher.module.scss";
+
+const updatePathLang = (router: NextRouter, lang: string) => {
+  const { pathname, asPath, query } = router;
+  router.push({ pathname, query }, asPath, { locale: lang, scroll: false });
+};
 
 const LanguageSwitcher = () => {
   const router = useRouter();
   const [language, setLanguage] = useState(router.locale);
-  const languages = i18next?.languages;
+  const languages = ["en", "tr"];
 
   const handleChangeLanguage = (lang: string) => {
-    i18next?.reloadResources(lang);
-    i18next?.changeLanguage(lang);
-    const { pathname, asPath, query } = router;
-    router.push({ pathname, query }, asPath, { locale: lang, scroll: false });
+    if (i18next) i18next.changeLanguage(lang);
+    updatePathLang(router, lang);
     setLanguage(lang);
   };
 
   return (
     <div className={styles.languageSwitcherRoot}>
       {languages?.map((lang: string) => {
-        const isLanguageActive = language === lang;
         const buttonClassNames = classNames(styles.languageSwitcherButton, {
-          [styles.active]: isLanguageActive,
+          [styles.active]: lang === language,
         });
 
         return (
