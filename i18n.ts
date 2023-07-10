@@ -1,6 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import commonEN from "./public/locales/eng/common.json";
+import commonEN from "./public/locales/en/common.json";
 import commonTR from "./public/locales/tr/common.json";
 
 const resources = {
@@ -14,13 +14,8 @@ const resources = {
 
 i18n.use(initReactI18next).init({
   resources,
+  lng: "en",
   fallbackLng: "tr",
-
-  keySeparator: false,
-
-  interpolation: {
-    escapeValue: false,
-  },
 });
 
 export default i18n;
