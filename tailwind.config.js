@@ -25,6 +25,11 @@ module.exports = {
 
       "2xl": "1536px",
     },
+    colors: {
+      white: "#FFFFFF",
+      headerbg: "#0D0D0D",
+    },
+    extend: {},
   },
   plugins: [],
 };
