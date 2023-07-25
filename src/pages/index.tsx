@@ -1,3 +1,9 @@
+import Hero from "../components/Hero/index";
+
 export default function Home() {
-  return <h1>{" "}</h1>
+  return (
+    <div className="app">
+      <Hero />
+    </div>
+  );
 }
