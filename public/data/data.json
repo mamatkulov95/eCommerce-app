@@ -1,15 +1,40 @@
 {
   "navMenu": [
-    { "title": "New", "url": "/" },
-    { "title": "Wallets", "url": "/wallets" },
-    { "title": "T Series", "url": "/tseries" },
-    { "title": "Card Holder", "url": "/cardholder" },
-    { "title": "Travel wallet", "url": "/travelwallet" },
-    { "title": "A5 Organizer", "url": "/a5organizer" }
+    {
+      "title": "New",
+      "url": "/"
+    },
+    {
+      "title": "Wallets",
+      "url": "/wallets"
+    },
+    {
+      "title": "T Series",
+      "url": "/tseries"
+    },
+    {
+      "title": "Card Holder",
+      "url": "/cardholder"
+    },
+    {
+      "title": "Travel wallet",
+      "url": "/travelwallet"
+    },
+    {
+      "title": "A5 Organizer",
+      "url": "/a5organizer"
+    }
   ],
-
   "navIcons": [
-    { "src": "../photos/Profile-icon.svg", "alt": "profile-icon" },
-    { "src": "../photos/search-icon.svg", "alt": "search-icon" }
+    {
+      "src": "../photos/Profile-icon.svg",
+      "alt": "profile-icon",
+      " size": 20
+    },
+    {
+      "src": "../photos/search-icon.svg",
+      "alt": "search-icon",
+      "size": 22
+    }
   ]
 }
