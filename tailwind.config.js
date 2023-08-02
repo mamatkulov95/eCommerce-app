@@ -16,20 +16,16 @@ module.exports = {
 
     screens: {
       sm: "340px",
-
       md: "768px",
-
       lg: "1024px",
-
       xl: "1280px",
-
       "2xl": "1536px",
     },
+
     colors: {
       white: "#FFFFFF",
       headerbg: "#0D0D0D",
     },
-    extend: {},
   },
   plugins: [],
 };
