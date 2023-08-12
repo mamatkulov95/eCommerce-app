@@ -24,8 +24,7 @@
       border-radius: 0 4px 4px 0;
     }
 
-    &:hover,
-    &.active:hover {
+    &:hover &.active:hover {
       color: black;
       background-color: lightgrey;
     }

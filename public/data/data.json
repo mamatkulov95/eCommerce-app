@@ -26,15 +26,64 @@
     }
   ],
   "navIcons": [
+    { "src": "../photos/Profile-icon.svg", "alt": "profile-icon" },
+    { "src": "../photos/search-icon.svg", "alt": "search-icon" }
+  ],
+
+  "newWallets": [
     {
-      "src": "../photos/Profile-icon.svg",
-      "alt": "profile-icon",
-      " size": 20
+      "src": "../photos/yeni-section/wallet-1.svg",
+      "title": "LETO - Taba",
+      "price": "$ 1.600,00",
+      "alt": "wallet-3"
     },
     {
-      "src": "../photos/search-icon.svg",
-      "alt": "search-icon",
-      "size": 22
+      "src": "../photos/yeni-section/wallet-2.svg",
+      "title": "LETO - Bordo Kırmızı",
+      "price": "$ 1.600,00",
+      "alt": "wallet-1"
+    },
+    {
+      "src": "../photos/yeni-section/wallet-3.svg",
+      "title": "LETO - Bordo",
+      "price": "$ 1.600,00",
+      "alt": "wallet-2"
+    },
+    {
+      "src": "../photos/yeni-section/wallet-4.svg",
+      "title": "TRI Bel Çantası - Taba",
+      "price": "$ 1.600,00",
+      "alt": "wallet-4"
+    }
+  ],
+
+  "tcartlik": [
+    {
+      "src": "../photos/yeni-section/t-seriesCartlik.svg",
+      "width": 470,
+      "height": 720,
+      "alt": "t-cartlik"
+    },
+    {
+      "src": "../photos/yeni-section/cartlik.svg",
+      "width": 470,
+      "height": 500,
+      "alt": "cartlik"
+    }
+  ],
+
+  "suzdek": [
+    {
+      "src": "../photos/yeni-section/suzdan.svg",
+      "width": 470,
+      "height": 500,
+      "alt": "suzdan"
+    },
+    {
+      "src": "../photos/yeni-section/seyehatguzden.svg",
+      "width": 470,
+      "height": 720,
+      "alt": "seyehat-suzdan"
     }
   ]
 }
