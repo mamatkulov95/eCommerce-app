@@ -1,11 +1,11 @@
 import { useState } from "react";
 import Image from "next/image";
 import { NavMenuItem } from "@/types/interfaces";
-import companyLogo from "../../../public/photos/company-logo.png";
-import basketLogo from "../../../public/photos/basket-icon.svg";
-import burgerIcon from "../../../public/photos/burger-icon.png";
-import closeBurger from "../../../public/photos/exit-icon.png";
-import data from "../../../public/data/data.json";
+import companyLogo from "@@/public/photos/company-logo.png";
+import basketLogo from "@@/public/photos/basket-icon.svg";
+import burgerIcon from "@@/public/photos/burger-icon.png";
+import closeBurger from "@@/public/photos/exit-icon.png";
+import data from "@@/public/data/data.json";
 
 export default function Hero() {
   const { navMenu, navIcons } = data;

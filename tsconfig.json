@@ -16,7 +16,9 @@
     "incremental": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@types": ["./src/types/*"]
+      "@types": ["./src/types/*"],
+      "@@/*": ["./*"],
+      "@@types": ["./public/types/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next-i18next.config.js"],

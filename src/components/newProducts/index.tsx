@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-import data from "../../../public/data/data.json";
-import eyeIcon from "../../../public/photos/yeni-section/eye.svg";
+import data from "@@/public/data/data.json";
+import eyeIcon from "@@/public/photos/yeni-section/eye.svg";
 
 export default function NewProducts() {
   const { newWallets, tcartlik, suzdek } = data;
