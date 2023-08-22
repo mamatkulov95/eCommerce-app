@@ -25,6 +25,7 @@
       "url": "/a5organizer"
     }
   ],
+
   "navIcons": [
     {
       "src": "../photos/Profile-icon.svg",
@@ -35,6 +36,44 @@
       "src": "../photos/search-icon.svg",
       "alt": "search-icon",
       "size": 22
+    }
+  ],
+
+  "feedbacks": [
+    {
+      "img": "../photos/feedback-icon.svg",
+      "alt": "user-icon",
+      "userName": "Van Niga",
+      "company": "CyberFin Co,Ltd",
+      "feedbackContent": "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint."
+    },
+    {
+      "img": "../photos/feedback-icon.svg",
+      "alt": "user-icon",
+      "userName": "Van Niga",
+      "company": "CyberFin Co,Ltd",
+      "feedbackContent": "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint."
+    },
+    {
+      "img": "../photos/feedback-icon.svg",
+      "alt": "user-icon",
+      "userName": "Van Niga",
+      "company": "CyberFin Co,Ltd",
+      "feedbackContent": "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint."
+    },
+    {
+      "img": "../photos/feedback-icon.svg",
+      "alt": "user-icon",
+      "userName": "Van Niga",
+      "company": "CyberFin Co,Ltd",
+      "feedbackContent": "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint."
+    },
+    {
+      "img": "../photos/feedback-icon.svg",
+      "alt": "user-icon",
+      "userName": "Van Niga",
+      "company": "CyberFin Co,Ltd",
+      "feedbackContent": "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint."
     }
   ]
 }
