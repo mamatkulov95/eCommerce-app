@@ -1,11 +1,11 @@
 import { useState } from "react";
 import Image from "next/image";
 import { NavMenuItem } from "@/types/interfaces";
-import companyLogo from "../../../public/photos/company-logo.png";
-import basketLogo from "../../../public/photos/basket-icon.svg";
-import burgerIcon from "../../../public/photos/burger-icon.png";
-import closeBurger from "../../../public/photos/exit-icon.png";
-import data from "../../../public/data/data.json"
+import companyLogo from "@@/public/photos/company-logo.png";
+import basketLogo from "@@/public/photos/basket-icon.svg";
+import burgerIcon from "@@/public/photos/burger-icon.png";
+import closeBurger from "@@/public/photos/exit-icon.png";
+import data from "@@/public/data/data.json";
 
 export default function Hero() {
   const { navMenu, navIcons } = data;
@@ -23,6 +23,7 @@ export default function Hero() {
           className="sm:block relative  transition-opacity ease-in delay-250 cursor-pointer md:hidden "
         >
           <Image
+            priority={true}
             src={isMenuOpen ? closeBurger : burgerIcon}
             width={40}
             height={40}
@@ -33,7 +34,7 @@ export default function Hero() {
             <div className="absolute cursor-pointer rounded-md  top-0 left-0 bg-slate-800 py-10 px-8 shadow-md text-white">
               <ul>
                 {navMenu.map((item: NavMenuItem, index: number) => (
-                  <li key={index} className="hover:text-cyan-400">
+                  <li key={index} className="hover:text-hoverColor">
                     <a href={item.url}>{item.title}</a>
                   </li>
                 ))}
@@ -44,6 +45,7 @@ export default function Hero() {
 
         <Image
           className="sm:hidden md:block cursor-pointer"
+          priority={true}
           src={companyLogo}
           width={80}
           height={80}
@@ -52,7 +54,7 @@ export default function Hero() {
 
         <div className="flex gap-4 justify-center items-center  sm:hidden md:flex">
           {navMenu.map((item: NavMenuItem, index: number) => (
-            <li key={index} className="hover:text-cyan-400">
+            <li key={index} className="hover:text-hoverColor">
               <a href={item.url}>{item.title}</a>
             </li>
           ))}
